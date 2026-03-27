@@ -107,4 +107,8 @@ The characteristics require the use fo Tweedie GLMs and flexible non-linear mode
    https://github.com/uni-Deb7943/TMU-CIND820.git
 
 4. Run the code:
-   Allen_Debra_InitialResults.ipynb
+   - 01_EDA_and_Data_Analysis.ipynb
+   - 02_Data_Preparation.ipynb
+   - 03_Tweedie_GLM_Model.ipynb
+   - 04_Gradient_Boosting_Model.ipynb
+   - 05_Model_Comparison.ipynb
