@@ -102,7 +102,7 @@ The characteristics require the use fo Tweedie GLMs and flexible non-linear mode
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
 
-3. Download dataset stored using Git Large File Storage (Git LFS)
+3. Download datasets stored using Git Large File Storage (Git LFS)
    - There are 2 dataset files:
        - liberty_train.csv
        - liberty_train_subset.csv
