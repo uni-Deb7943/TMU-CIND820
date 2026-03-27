@@ -102,11 +102,17 @@ The characteristics require the use fo Tweedie GLMs and flexible non-linear mode
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
 
-3. Dataset included in the repository
+3. Download dataset stored using Git Large File Storage (Git LFS)
+   - There are 2 dataset files:
+       - liberty_train.csv
+       - liberty_train_subset.csv
    ```bash
-   https://github.com/uni-Deb7943/TMU-CIND820.git
+   git lfs install
+   git clone https://github.com/uni-Deb7943/TMU-CIND820.git
+   cd TMU-CIND820
+   git
 
-4. Run the code:
+5. Run the code:
    - 01_EDA_and_Data_Analysis.ipynb
    - 02_Data_Preparation.ipynb
    - 03_Tweedie_GLM_Model.ipynb
