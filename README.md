@@ -66,6 +66,7 @@ The characteristics require the use fo Tweedie GLMs and flexible non-linear mode
 - Standardization of numeric predictors
 - One-hot encoding of categorical predictors
 - Train-test split with no data leakage
+- Cross Validation
 
 ### 3. Modelling Approaches
 - **Tweedie GLM**
@@ -79,6 +80,7 @@ The characteristics require the use fo Tweedie GLMs and flexible non-linear mode
 - Root Mean Squared Error (RMSE)
 - Mean Absolute Error (MAE)
 - Coefficient of Determination (R^2)
+- Weighted GINI
 - Side-by-side comparison and visualization
 
 ---
@@ -112,7 +114,7 @@ The characteristics require the use fo Tweedie GLMs and flexible non-linear mode
    cd TMU-CIND820
    git
 
-5. Run the code:
+5. Run the code in the following order:
    - 01_EDA_and_Data_Analysis.ipynb
    - 02_Data_Preparation.ipynb
    - 03_Tweedie_GLM_Model.ipynb
